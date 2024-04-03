@@ -1,0 +1,14 @@
+include *.txt
+include *.py
+include *.md
+recursive-include .\prdiction_model\*
+include .\prdiction_model\datasets\*.csv
+include .\prdiction_model\trained_models\*.pkl
+
+include .\prdiction_model\VERSION
+
+
+include .\tests\*
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
